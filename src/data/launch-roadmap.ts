@@ -245,9 +245,9 @@ export const launchRoadmap: RoadmapPhase[] = [
     steps: [
       { id: "10.01", title: "Create git repository", description: "Initialize or connect the project repo.", status: "done" },
       { id: "10.02", title: "Commit launch baseline", description: "Commit the launch-ready source.", status: "done" },
-      { id: "10.03", title: "Create GitHub repo", description: "Create a temporary GitHub repository under the connected account.", status: "current" },
+      { id: "10.03", title: "Create GitHub repo", description: "Create a temporary GitHub repository under the connected account.", status: "done" },
       { id: "10.04", title: "Configure static export", description: "Add GitHub Pages-safe static export settings without breaking local development.", status: "done" },
-      { id: "10.05", title: "Publish GitHub Pages preview", description: "Push the static export and verify the temporary GitHub Pages URL.", status: "todo" },
+      { id: "10.05", title: "Publish GitHub Pages preview", description: "Push the static export and verify the temporary GitHub Pages URL.", status: "current" },
       { id: "10.06", title: "Domain plan", description: "Choose and document the launch domain.", status: "todo" },
       { id: "10.07", title: "Connect domain", description: "Add DNS and final hosting domain settings after launch host is chosen.", status: "todo" },
       { id: "10.08", title: "Production QA", description: "Run final smoke checks on the live domain after theme, assets, and domain are complete.", status: "todo" },

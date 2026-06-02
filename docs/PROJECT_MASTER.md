@@ -60,6 +60,7 @@ Phase 8: Baseline QA and temporary GitHub Pages preview.
 - Changed the near-term deployment target to a temporary GitHub Pages preview; final host and domain remain later decisions.
 - Initialized the local git repository on `main`.
 - Configured a GitHub Pages-safe static export with base path and asset-prefix handling.
+- Created the temporary public GitHub repository at `https://github.com/gibsonmade/gibsooon`.
 
 ## Active Scope
 
