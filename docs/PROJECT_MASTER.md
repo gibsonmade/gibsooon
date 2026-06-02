@@ -61,6 +61,7 @@ Phase 8: Baseline QA and temporary GitHub Pages preview.
 - Initialized the local git repository on `main`.
 - Configured a GitHub Pages-safe static export with base path and asset-prefix handling.
 - Created the temporary public GitHub repository at `https://github.com/gibsonmade/gibsooon`.
+- Published the temporary GitHub Pages preview at `https://gibsonmade.github.io/gibsooon/`.
 
 ## Active Scope
 
@@ -97,7 +98,7 @@ Launch is complete when:
 
 ## Next Step
 
-Commit the launch baseline, create the GitHub repository, and publish the temporary GitHub Pages preview.
+Choose the domain plan later, after the ThemeForest theme and real assets are integrated.
 
 ## Confirmed Setup Choices
 

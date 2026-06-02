@@ -53,7 +53,7 @@
 - [x] Footer and navigation links wired across public routes
 - [x] Baseline route smoke checks pass
 - [x] Temporary GitHub Pages preview configured
-- [ ] Temporary GitHub Pages preview deployed
+- [x] Temporary GitHub Pages preview deployed
 - [ ] SEO metadata complete
 - [ ] Open Graph images complete
 - [ ] Favicon complete
