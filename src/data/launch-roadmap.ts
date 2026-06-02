@@ -218,7 +218,12 @@ export const launchRoadmap: RoadmapPhase[] = [
       { id: "8.5.05", title: "Upload real project assets", description: "Add approved screenshots, photos, mockups, and anonymized visuals for each case study.", status: "todo" },
       { id: "8.5.06", title: "Replace placeholders", description: "Swap sprite placeholders with real theme imagery and project assets.", status: "todo" },
       { id: "8.5.07", title: "Final responsive QA", description: "Run full desktop, tablet, and mobile QA after theme and assets are applied.", status: "todo" },
-      { id: "8.5.08", title: "Final accessibility QA", description: "Run keyboard, focus, contrast, reduced-motion, and text-overflow QA after theme and assets are applied.", status: "todo" }
+      { id: "8.5.08", title: "Final accessibility QA", description: "Run keyboard, focus, contrast, reduced-motion, and text-overflow QA after theme and assets are applied.", status: "todo" },
+      { id: "8.5.09", title: "Create asset manifest", description: "List the top site and case-study assets, source status, prompts, and real-asset gaps.", status: "done" },
+      { id: "8.5.10", title: "Capture public Mini Murals assets", description: "Save usable public Mini Murals homepage and Houston map screenshots without restyling client UI.", status: "done" },
+      { id: "8.5.11", title: "Generate safe placeholder visuals", description: "Generate non-client-ui visuals for Gibson, Home Depot artifacts, CarMax artifacts, Straterra, resources, and About.", status: "done" },
+      { id: "8.5.12", title: "Wire asset visuals into pages", description: "Update Home, Work, case studies, About, Resources, Inquire, and OG metadata to use the asset manifest.", status: "done" },
+      { id: "8.5.13", title: "Baseline asset QA", description: "Run build checks and browser screenshot checks for the new asset pass.", status: "done" }
     ]
   },
   {

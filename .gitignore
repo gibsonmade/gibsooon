@@ -7,3 +7,8 @@ out
 *.log
 dist
 tsconfig.tsbuildinfo
+public/assets/screenshots/carmax-home.png
+public/assets/screenshots/carmax-sell-my-car.png
+public/assets/screenshots/home-depot-countertops-visualizer.png
+public/assets/screenshots/home-depot-decking-calculator.png
+public/assets/screenshots/home-depot-project-calculators.png

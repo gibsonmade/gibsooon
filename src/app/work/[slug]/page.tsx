@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
+import { AssetVisual } from "@/components/atoms/AssetVisual";
 import { ButtonLink } from "@/components/atoms/ButtonLink";
 import { Eyebrow } from "@/components/atoms/Eyebrow";
-import { SpriteVisual } from "@/components/atoms/SpriteVisual";
 import { PageShell } from "@/components/templates/PageShell";
 import { caseStudyDetails } from "@/data/case-study-details";
 import { flagshipCaseStudies, getCaseStudy } from "@/lib/content";
@@ -35,6 +35,12 @@ export default async function CaseStudyPage({ params }: CaseStudyPageProps) {
   }
 
   const detail = caseStudyDetails[study.slug];
+  const coverAssetBySlug: Record<string, string> = {
+    "home-depot": "home-depot-cover-artifact",
+    carmax: "carmax-cover-artifact",
+    "mini-murals": "mini-murals-cover-screenshot",
+    straterra: "straterra-cover-luxury"
+  };
 
   return (
     <PageShell>
@@ -46,7 +52,7 @@ export default async function CaseStudyPage({ params }: CaseStudyPageProps) {
             <p className="mt-8 max-w-3xl text-2xl leading-tight text-ink/75 dark:text-paper/75">{study.title}</p>
           </div>
           <div className="border border-ink bg-ink p-5 text-paper shadow-hard dark:border-paper dark:bg-paper dark:text-ink">
-            <SpriteVisual className="aspect-[4/5] border-paper/40 dark:border-ink/40" crop="covers" label={`${study.clientName} cover`} />
+            <AssetVisual assetId={coverAssetBySlug[study.slug]} className="aspect-[4/5] border-paper/40 dark:border-ink/40" fallbackCrop="covers" />
           </div>
         </section>
         <section className="mx-auto grid max-w-7xl gap-6 px-4 pb-20 sm:px-6 md:grid-cols-3 lg:px-8">
@@ -74,7 +80,7 @@ export default async function CaseStudyPage({ params }: CaseStudyPageProps) {
           <div className="grid gap-5 md:grid-cols-3">
             {detail.assetSlots.map((slot, index) => (
               <div className="border border-ink bg-paper p-4 dark:border-paper dark:bg-ink" key={slot.title}>
-                <SpriteVisual className="aspect-[4/3]" crop={slot.crop} label={`${study.clientName} asset ${index + 1}`} />
+                <AssetVisual assetId={slot.assetId} className="aspect-[4/3]" fallbackCrop={slot.crop} />
                 <p className="mt-5 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50">
                   Needed asset / 0{index + 1}
                 </p>

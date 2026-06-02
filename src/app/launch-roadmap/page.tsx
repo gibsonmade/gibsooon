@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Eyebrow } from "@/components/atoms/Eyebrow";
 import { PageShell } from "@/components/templates/PageShell";
 import { completedStepCount, currentStep, launchRoadmap, totalStepCount } from "@/data/launch-roadmap";
+import { withBasePath } from "@/lib/site-paths";
 
 const statusStyles = {
   done: "border-ink bg-ink text-paper dark:border-paper dark:bg-paper dark:text-ink",
@@ -94,8 +95,7 @@ export default function LaunchRoadmapPage() {
                 alt="Gibson Hall neo-brutalist cosmic portfolio sprite sheet showing portrait, systems, chrome, case study cover, and section header variations."
                 className="h-auto w-full"
                 height={1024}
-                priority
-                src="/assets/images/gibsooon-mood-board.png"
+                src={withBasePath("/assets/images/gibsooon-mood-board.png")}
                 width={2048}
               />
             </div>

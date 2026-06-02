@@ -1,3 +1,4 @@
+import { AssetVisual } from "@/components/atoms/AssetVisual";
 import { Eyebrow } from "@/components/atoms/Eyebrow";
 import { InquiryForm } from "@/components/organisms/InquiryForm";
 import { PageShell } from "@/components/templates/PageShell";
@@ -27,6 +28,7 @@ export default function InquirePage() {
               discovery call makes sense. Short answers are fine. Specific answers are better.
             </p>
           </div>
+          <AssetVisual assetId="inquire-serious-project" className="mt-8 aspect-[5/3]" fallbackCrop="headers" />
         </div>
         <InquiryForm />
       </section>

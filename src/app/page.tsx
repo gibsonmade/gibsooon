@@ -1,6 +1,6 @@
+import { AssetVisual } from "@/components/atoms/AssetVisual";
 import { ButtonLink } from "@/components/atoms/ButtonLink";
 import { Eyebrow } from "@/components/atoms/Eyebrow";
-import { SpriteVisual } from "@/components/atoms/SpriteVisual";
 import { CaseStudyCard } from "@/components/molecules/CaseStudyCard";
 import { PageShell } from "@/components/templates/PageShell";
 import { flagshipCaseStudies, services } from "@/lib/content";
@@ -34,15 +34,14 @@ export default function HomePage() {
           <div className="absolute right-6 top-6 z-10 font-mono text-[10px] uppercase tracking-[0.2em]">
             Strategy / Brand / Build / AI
           </div>
-          <div className="cosmic-object float-slow absolute left-[12%] top-[12%] h-48 w-48 rounded-full shadow-glow" />
-          <SpriteVisual className="absolute right-6 top-16 h-52 w-48" crop="systems" label="Systems collage" />
-          <div className="absolute bottom-6 left-6 right-12 border border-paper/70 bg-paper p-4 text-ink dark:border-ink/70 dark:bg-ink dark:text-paper">
+          <AssetVisual assetId="home-hero-editorial-portrait" className="absolute left-4 top-14 h-[58%] w-[62%]" fallbackCrop="portrait" />
+          <AssetVisual assetId="home-systems-artifact" className="absolute right-6 top-20 h-48 w-44" fallbackCrop="systems" />
+          <div className="absolute bottom-6 left-6 right-6 border border-paper/70 bg-paper p-4 text-ink dark:border-ink/70 dark:bg-ink dark:text-paper">
             <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/60 dark:text-paper/60">
               Founder-led / $10k+ / launch-ready
             </p>
-            <p className="mt-10 font-display text-5xl leading-none md:text-7xl">From idea to working system.</p>
+            <p className="mt-6 max-w-lg font-display text-4xl leading-none md:text-5xl">From idea to working system.</p>
           </div>
-          <SpriteVisual className="absolute bottom-28 right-6 h-44 w-32" crop="chrome" label="Chrome object" />
         </div>
       </section>
 

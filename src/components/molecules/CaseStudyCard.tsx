@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { CaseStudy } from "@/lib/content";
-import { SpriteVisual } from "@/components/atoms/SpriteVisual";
+import { AssetVisual } from "@/components/atoms/AssetVisual";
 
 type CaseStudyCardProps = {
   study: CaseStudy;
@@ -9,6 +9,12 @@ type CaseStudyCardProps = {
 
 export function CaseStudyCard({ study, index }: CaseStudyCardProps) {
   const isComingSoon = study.status === "coming-soon";
+  const coverAssetBySlug: Record<string, string> = {
+    "home-depot": "home-depot-cover-artifact",
+    carmax: "carmax-cover-artifact",
+    "mini-murals": "mini-murals-cover-screenshot",
+    straterra: "straterra-cover-luxury"
+  };
 
   return (
     <article className="group border border-ink bg-paper p-5 transition hover:-translate-y-1 hover:shadow-hard dark:border-paper dark:bg-ink">
@@ -20,7 +26,7 @@ export function CaseStudyCard({ study, index }: CaseStudyCardProps) {
           {isComingSoon ? "Coming soon" : "Flagship"}
         </span>
       </div>
-      <SpriteVisual className="mb-6 aspect-[5/3]" crop="covers" label={study.clientName} />
+      <AssetVisual assetId={coverAssetBySlug[study.slug] || "home-proof-collage"} className="mb-6 aspect-[5/3]" fallbackCrop="covers" />
       <h3 className="mb-4 font-display text-2xl leading-none md:text-3xl">{study.clientName}</h3>
       <p className="mb-5 text-lg leading-snug text-ink/78 dark:text-paper/78">{study.title}</p>
       <p className="mb-7 text-sm leading-6 text-ink/62 dark:text-paper/62">{study.shortSummary}</p>

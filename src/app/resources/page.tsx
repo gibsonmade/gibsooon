@@ -1,5 +1,5 @@
+import { AssetVisual } from "@/components/atoms/AssetVisual";
 import { Eyebrow } from "@/components/atoms/Eyebrow";
-import { SpriteVisual } from "@/components/atoms/SpriteVisual";
 import { PageShell } from "@/components/templates/PageShell";
 import { resources } from "@/lib/content";
 
@@ -21,7 +21,7 @@ export default function ResourcesPage() {
             <p className="font-mono text-xs uppercase tracking-[0.18em] text-ink/55 dark:text-paper/55">
               0{index + 1} / {resource.type}
             </p>
-            <SpriteVisual className="my-8 aspect-square" crop="headers" label={resource.type} />
+            <AssetVisual assetId="resources-ai-systems-thumbnail" className="my-8 aspect-square" fallbackCrop="headers" />
             <h2 className="font-display text-4xl leading-none">{resource.title}</h2>
             <p className="mt-5 text-sm leading-6 text-ink/65 dark:text-paper/65">{resource.summary}</p>
           </article>

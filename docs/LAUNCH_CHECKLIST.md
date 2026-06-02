@@ -36,6 +36,10 @@
 - [ ] Theme integration strategy chosen
 - [ ] Existing content mapped into theme
 - [ ] Real project assets gathered and swapped in later
+- [x] Asset manifest created
+- [x] Safe placeholder visuals generated
+- [x] Captured public Mini Murals screenshots
+- [x] Generated/captured assets wired into current pages
 - [ ] Final theme/assets QA complete
 
 ## Content

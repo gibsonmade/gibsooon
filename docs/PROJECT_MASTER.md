@@ -62,6 +62,9 @@ Phase 8: Baseline QA and temporary GitHub Pages preview.
 - Configured a GitHub Pages-safe static export with base path and asset-prefix handling.
 - Created the temporary public GitHub repository at `https://github.com/gibsonmade/gibsooon`.
 - Published the temporary GitHub Pages preview at `https://gibsonmade.github.io/gibsooon/`.
+- Created the 26-item asset manifest with prompts, sources, generation status, and real-client-asset gaps.
+- Captured usable Mini Murals public screenshots and generated safe non-client-ui visuals for the rest of the current asset pass.
+- Wired generated/captured assets into Home, Work, flagship case studies, About, Resources, Inquire, and Open Graph metadata.
 
 ## Active Scope
 

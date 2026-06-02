@@ -1,6 +1,6 @@
+import { AssetVisual } from "@/components/atoms/AssetVisual";
 import { ButtonLink } from "@/components/atoms/ButtonLink";
 import { Eyebrow } from "@/components/atoms/Eyebrow";
-import { SpriteVisual } from "@/components/atoms/SpriteVisual";
 import { PageShell } from "@/components/templates/PageShell";
 
 const workHistory = [
@@ -97,13 +97,13 @@ export default function AboutPage() {
         </div>
         <div className="grid gap-5 md:grid-cols-3">
           {[
-            ["Dog Easter egg", "A recurring hidden detail that can move around the site.", "portrait"],
-            ["Drone archive", "Photography and video can become page texture, project covers, or motion studies.", "chrome"],
-            ["Playlist pending", "Spotify energy comes later once Gibson shares the right source.", "headers"]
-          ].map(([title, copy, crop]) => (
+            ["Dog Easter egg", "A recurring hidden detail that can move around the site.", "about-dog-easter-egg", "portrait"],
+            ["Drone archive", "Photography and video can become page texture, project covers, or motion studies.", "about-drone-archive", "chrome"],
+            ["AI workflow", "Figma, code, agents, and research artifacts can become a stronger visual once real screenshots are approved.", "about-tools-workspace", "systems"]
+          ].map(([title, copy, assetId, crop]) => (
             <article className="min-h-64 border border-ink p-5 dark:border-paper" key={title}>
               <p className="font-mono text-xs uppercase tracking-[0.18em] text-ink/55 dark:text-paper/55">Artifact</p>
-              <SpriteVisual className="mt-6 aspect-[4/3]" crop={crop as "portrait" | "chrome" | "headers"} label={title} />
+              <AssetVisual className="mt-6 aspect-[4/3]" assetId={assetId} fallbackCrop={crop as "portrait" | "chrome" | "systems"} />
               <h3 className="mt-6 font-display text-4xl leading-none">{title}</h3>
               <p className="mt-4 text-sm leading-6 text-ink/65 dark:text-paper/65">{copy}</p>
             </article>
@@ -113,13 +113,18 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-7xl px-4 pb-24 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-[0.35fr_1fr]">
-          <Eyebrow>Bookshelf draft</Eyebrow>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {books.map((book) => (
-              <div className="border border-ink px-4 py-5 text-sm leading-5 dark:border-paper" key={book}>
-                {book}
-              </div>
-            ))}
+          <div>
+            <Eyebrow>Bookshelf draft</Eyebrow>
+            <AssetVisual assetId="about-bookshelf" className="mt-8 aspect-[4/3]" fallbackCrop="headers" />
+          </div>
+          <div>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {books.map((book) => (
+                <div className="border border-ink px-4 py-5 text-sm leading-5 dark:border-paper" key={book}>
+                  {book}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
