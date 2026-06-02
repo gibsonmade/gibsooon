@@ -1,0 +1,98 @@
+[
+  {
+    "clientName": "The Home Depot",
+    "slug": "home-depot",
+    "status": "flagship",
+    "title": "Helping the Nation's Largest Home Improvement Retailer Sell Projects, Not Just Products",
+    "shortSummary": "Gibson helped lead UX work around reusable, validated project-shopping patterns for HomeDepot.com.",
+    "industry": "Enterprise retail / home improvement",
+    "year": "2017-2021",
+    "projectType": "Enterprise UX systems and omnichannel e-commerce",
+    "role": "Senior Manager of UX Design",
+    "services": ["UX strategy", "Product design leadership", "UX research leadership", "Design systems", "E-commerce", "A/B testing", "Team management"],
+    "collaborationContext": "Internal Home Depot role leading product designers and UX researchers in partnership with developers, business owners, analysts, and product teams.",
+    "constraints": ["Massive product catalog", "Highly variable home improvement projects", "Mobile considerations", "Design system consistency", "Omnichannel pickup and delivery behavior"],
+    "storyAngle": "Helping a massive retailer sell complete projects, not just isolated products.",
+    "reviewStatus": "Needs review for team size, publishable visuals, A/B testing details, and any measurable outcomes."
+  },
+  {
+    "clientName": "CarMax",
+    "slug": "carmax",
+    "status": "flagship",
+    "title": "Simplifying How Customers Sell Their Cars Online for the Nation's Largest Automotive Retailer",
+    "shortSummary": "Gibson helps lead product design for CarMax's sell-your-car journey, a high-traffic funnel receiving over one million visitors each month.",
+    "industry": "Automotive retail / digital commerce",
+    "year": "2021-2026",
+    "projectType": "High-traffic product funnel and AI-driven product design",
+    "role": "Manager of Product Design",
+    "services": ["Product design", "UX strategy", "A/B testing", "Form funnel design", "Offer comprehension", "AI-assisted design and research", "Design systems"],
+    "collaborationContext": "Direct CarMax role working cross-functionally with developers, financial analysts, product managers, and business partners.",
+    "constraints": ["20+ question form funnel", "High-stakes customer decision", "Complex offer logic", "Online and in-store next steps", "Business-critical supply journey"],
+    "storyAngle": "Simplifying a high-traffic, high-stakes customer decision through product design, testing, and empathy.",
+    "reviewStatus": "Needs review for exact title phrasing, top-three product experience claim, one-million-plus visitors phrasing, and specific A/B outcomes."
+  },
+  {
+    "clientName": "Mini Murals",
+    "slug": "mini-murals",
+    "status": "flagship",
+    "title": "Transforming a Grassroots Art Project Into a City-Wide Digital Experience",
+    "shortSummary": "Gibson helped turn 250+ Houston public artworks by 40+ artists into a browsable brand, website, and interactive map experience.",
+    "industry": "Civic art / nonprofit creative initiative",
+    "year": "2012-2016",
+    "projectType": "Brand, website, maps, campaigns, and creative operations",
+    "role": "CTO",
+    "services": ["Logo", "Website", "Interactive maps", "WordPress", "Email campaigns", "Marketing materials", "Operations"],
+    "collaborationContext": "Worked with the CEO, COO, City of Houston, artists, districts, and community partners.",
+    "constraints": ["Distributed public artwork", "Neighborhood discovery", "Artist and theme browsing", "Civic partner coordination", "Early-stage operational needs"],
+    "storyAngle": "Bringing civic creativity online by making hundreds of public artworks discoverable.",
+    "reviewStatus": "Needs review for exact award phrasing, official nomination wording, CTO title preference, and final visual assets."
+  },
+  {
+    "clientName": "Straterra",
+    "slug": "straterra",
+    "status": "flagship",
+    "title": "How Gibson Helped a Commercial Property Platform Move From Idea to Launch",
+    "shortSummary": "Gibson helped a serial entrepreneur turn a commercial-property platform concept into a launch-ready brand, website, lead-generation flow, and product UX.",
+    "industry": "Commercial real estate / investment platform",
+    "year": "2025-2026",
+    "projectType": "End-to-end brand, website, lead generation, and product UX",
+    "role": "Freelance strategy, brand, UX/UI, and digital product partner",
+    "services": ["Naming", "Brand strategy", "Brand guidelines", "Art direction", "Website design", "Lead generation", "Platform UX/UI", "Advising"],
+    "collaborationContext": "Worked directly with a serial entrepreneur and continues advising.",
+    "constraints": ["Raw founder concept", "Private member-only platform", "Confidential property data", "Need for public credibility and lead generation"],
+    "storyAngle": "Turning a founder's raw idea into a named brand, credible website, lead-generation engine, and working product UX.",
+    "reviewStatus": "Needs review for exact spelling, category language, public-safe screenshots/mockups, and whether 100+ Houston listings can be published."
+  },
+  {
+    "clientName": "Academy Sports + Outdoors",
+    "slug": "academy-sports-outdoors",
+    "status": "coming-soon",
+    "title": "How Gibson Crafted a Mobile-First Omni Strategy for Millions of Customers",
+    "shortSummary": "A coming-soon story about mobile-first omnichannel strategy at retail scale.",
+    "reviewStatus": "Needs Gibson review before publication."
+  },
+  {
+    "clientName": "CHI St. Luke's",
+    "slug": "chi-st-lukes",
+    "status": "coming-soon",
+    "title": "Redesigning a Complex Healthcare Website for Patients and Providers",
+    "shortSummary": "A coming-soon story about simplifying a healthcare web experience for multiple audiences.",
+    "reviewStatus": "Needs Gibson review before publication."
+  },
+  {
+    "clientName": "Ritual",
+    "slug": "ritual",
+    "status": "coming-soon",
+    "title": "Bringing a Vision to Life for a Boutique Fitness Studio",
+    "shortSummary": "A coming-soon story about turning a boutique fitness concept into a polished digital presence.",
+    "reviewStatus": "Needs Gibson review before publication."
+  },
+  {
+    "clientName": "Le Klir",
+    "slug": "le-klir",
+    "status": "coming-soon",
+    "title": "Building a Scalable Brand and eCommerce Website for a Growing Beauty Startup",
+    "shortSummary": "A coming-soon story about brand, e-commerce, and growth infrastructure for a beauty startup.",
+    "reviewStatus": "Needs Gibson review before publication."
+  }
+]

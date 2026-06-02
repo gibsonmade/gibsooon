@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Website Planning Checklist",
+    "slug": "website-planning-checklist",
+    "type": "guide",
+    "summary": "A practical checklist for founder-led companies preparing for a serious website project.",
+    "status": "draft"
+  },
+  {
+    "title": "AI Tools Gibson Actually Uses",
+    "slug": "ai-tools",
+    "type": "toolkit",
+    "summary": "A curated list of AI and creative tools for strategy, design, visuals, motion, and launch workflows.",
+    "status": "draft"
+  },
+  {
+    "title": "UX Strategy Questions Before a Redesign",
+    "slug": "ux-strategy-questions",
+    "type": "worksheet",
+    "summary": "Focused questions to clarify business goals before changing a digital experience.",
+    "status": "draft"
+  }
+]
+
